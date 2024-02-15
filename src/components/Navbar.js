@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { Button } from './Button';
 import { Link } from 'react-router-dom';
 import './Navbar.css';
+import logo from './Logo.png'; 
 
 function Navbar() {
   const [click, setClick] = useState(false);
@@ -28,9 +29,9 @@ function Navbar() {
     <>
       <nav className='navbar'>
         <div className='navbar-container'>
-          <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
-            TRVL
-            <i class='fab fa-typo3' />
+        <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
+            {/* Replace the text logo with an image tag */}
+            <img src={logo} alt="Logo" style={{height: "100%", objectFit: "contain"}} />
           </Link>
           <div className='menu-icon' onClick={handleClick}>
             <i className={click ? 'fas fa-times' : 'fas fa-bars'} />

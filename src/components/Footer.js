@@ -8,7 +8,7 @@ function Footer() {
     <div className='footer-container'>
       <section className='footer-subscription'>
         <p className='footer-subscription-heading'>
-          Join the Adventure newsletter to receive our best vacation deals
+          Join the Reguvare newsletter to receive our updates and offers!
         </p>
         <p className='footer-subscription-text'>
           You can unsubscribe at any time.
@@ -63,12 +63,12 @@ function Footer() {
       <section class='social-media'>
         <div class='social-media-wrap'>
           <div class='footer-logo'>
-            <Link to='/' className='social-logo'>
-              TRVL
+            {/* <Link to='/' className='social-logo'>
+              REGUVARE
               <i class='fab fa-typo3' />
-            </Link>
+            </Link> */}
           </div>
-          <small class='website-rights'>TRVL © 2020</small>
+          <small class='website-rights'>REGUVARE © 2024</small>
           <div class='social-icons'>
             <Link
               class='social-icon-link facebook'

@@ -19,14 +19,20 @@
 }
 
 .navbar-logo {
-  color: #fff;
   justify-self: start;
   margin-left: 20px;
   cursor: pointer;
   text-decoration: none;
-  font-size: 2rem;
+  /* Set a fixed height for your logo image */
+  height: 60px; /* You can adjust this value */
   display: flex;
   align-items: center;
+}
+
+
+.navbar-logo img {
+  height: 100%; /* This will make the logo fill the height of the navbar-logo container */
+  width: auto; /* This will keep the logo aspect ratio intact */
 }
 
 .fa-typo3 {
