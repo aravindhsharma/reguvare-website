@@ -5,7 +5,7 @@ import './HeroSection.css';
 
 function HeroSection() {
   const handlePlayNow = () => {
-    window.location.href = 'https://github.com/guilhermefront/betteraim';
+    window.location.href = 'https://focus-better-rmbo2nzwl-aravindhsharma.vercel.app/';
   };
 
   return (
