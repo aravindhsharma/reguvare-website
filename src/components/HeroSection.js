@@ -5,7 +5,7 @@ import './HeroSection.css';
 
 function HeroSection() {
   const handlePlayNow = () => {
-    window.location.href = 'https://focus-better-rmbo2nzwl-aravindhsharma.vercel.app/';
+    window.location.href = 'https://focus-better.vercel.app';
   };
 
   return (
